@@ -1,0 +1,17 @@
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "himesha"
+}
+
+###
+GET http://localhost:3000/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaGltZXNoYSIsImlhdCI6MTYwNDUwOTMxN30.odOcXAyIb9UdO5z22Ug3_9wz94Pd1v4-_WoxRyNSO_E
+
+###
+GET http://localhost:3000/db
+
+###
+GET http://localhost:3000/logout
